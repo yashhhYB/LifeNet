@@ -3,7 +3,7 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
-import { AI } from '@/ai/genkit';
+import { ai as AI } from '@/ai/genkit';
 
 const geistSans = GeistSans;
 const geistMono = GeistMono;
