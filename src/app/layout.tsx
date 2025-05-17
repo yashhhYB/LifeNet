@@ -3,7 +3,7 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
-import { ai as AI } from '@/ai/genkit';
+// import { ai } from '@/ai/genkit'; // Correctly import 'ai' - Temporarily commented out
 
 const geistSans = GeistSans;
 const geistMono = GeistMono;
@@ -18,13 +18,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // const AIProvider = ai; // Alias for JSX - Temporarily commented out
   return (
-    <html lang="en">
+    <html lang="en" className="dark"> {/* Ensure dark class is applied for the PRD theme */}
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <AI>
+        {/* <AIProvider> */}
           {children}
           <Toaster />
-        </AI>
+        {/* </AIProvider> */}
       </body>
     </html>
   );

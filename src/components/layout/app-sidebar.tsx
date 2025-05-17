@@ -49,10 +49,10 @@ const navItems = [
 
 export function AppSidebar() {
   const pathname = usePathname();
-  const [openModules, setOpenModules] = React.useState(true); // Keep emergency modules open by default
+  const [openModules, setOpenModules] = React.useState(false); // Keep emergency modules closed by default
 
   const isActive = (href: string, isParent = false) => {
-    if (!pathname) return false; // Handle null pathname
+    if (!pathname) return false; 
     if (isParent) return pathname.startsWith(href);
     return pathname === href;
   };
