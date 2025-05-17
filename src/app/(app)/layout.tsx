@@ -1,3 +1,4 @@
+
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/layout/app-sidebar";
 import { AppHeader } from "@/components/layout/app-header";
@@ -8,7 +9,7 @@ export default function AppLayout({
   children: React.ReactNode;
 }) {
   return (
-    <SidebarProvider defaultOpen={true} open={true}>
+    <SidebarProvider defaultOpen={true}>
       <AppSidebar />
       <div className="flex flex-col w-full">
         <AppHeader />

@@ -1,4 +1,4 @@
-// use server'
+'use server';
 
 /**
  * @fileOverview Survival plan generator flow.
