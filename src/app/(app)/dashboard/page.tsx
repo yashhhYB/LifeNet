@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -12,7 +13,7 @@ export default function DashboardPage() {
       icon: <Bot className="h-8 w-8 text-primary" />,
       href: "/chatbot",
       image: "https://placehold.co/300x200.png",
-      imageHint: "chatbot interface",
+      imageHint: "AI chatbot",
     },
     {
       title: "First Aid Guide",
@@ -28,7 +29,7 @@ export default function DashboardPage() {
       icon: <Flame className="h-8 w-8 text-primary" />,
       href: "/emergency/fire-starter",
       image: "https://placehold.co/300x200.png",
-      imageHint: "campfire wood",
+      imageHint: "campfire",
     },
     {
       title: "Water Purification",
@@ -36,7 +37,7 @@ export default function DashboardPage() {
       icon: <Droplets className="h-8 w-8 text-primary" />,
       href: "/emergency/water-purification",
       image: "https://placehold.co/300x200.png",
-      imageHint: "water drop",
+      imageHint: "water filter",
     },
     {
       title: "Navigation Tips",
@@ -44,7 +45,7 @@ export default function DashboardPage() {
       icon: <Compass className="h-8 w-8 text-primary" />,
       href: "/emergency/navigation-tips",
       image: "https://placehold.co/300x200.png",
-      imageHint: "compass nature",
+      imageHint: "compass map",
     },
     {
       title: "SOS Beacon",
@@ -52,7 +53,7 @@ export default function DashboardPage() {
       icon: <RadioTower className="h-8 w-8 text-primary" />,
       href: "/sos",
       image: "https://placehold.co/300x200.png",
-      imageHint: "sos signal",
+      imageHint: "SOS beacon",
     },
   ];
 
@@ -60,12 +61,12 @@ export default function DashboardPage() {
     <div className="flex flex-col items-center p-4 md:p-8 space-y-8">
       <Card className="w-full max-w-4xl shadow-xl overflow-hidden">
         <div className="relative h-48 md:h-64">
-          <Image 
-            src="https://placehold.co/1200x400.png" 
-            alt="Survival scenario" 
-            layout="fill" 
+          <Image
+            src="https://placehold.co/1200x400.png"
+            alt="Survival scenario"
+            layout="fill"
             objectFit="cover"
-            data-ai-hint="forest survival"
+            data-ai-hint="survival forest"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent p-6 flex flex-col justify-end">
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">LifeNet Survivalist</h1>
@@ -81,11 +82,11 @@ export default function DashboardPage() {
           <Card key={feature.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             {feature.image && (
               <div className="relative h-40">
-                <Image 
-                  src={feature.image} 
-                  alt={feature.title} 
-                  layout="fill" 
-                  objectFit="cover" 
+                <Image
+                  src={feature.image}
+                  alt={feature.title}
+                  layout="fill"
+                  objectFit="cover"
                   data-ai-hint={feature.imageHint}
                 />
               </div>
