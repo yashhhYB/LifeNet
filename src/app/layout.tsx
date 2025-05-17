@@ -3,7 +3,7 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
-// import { ai as AI } from '@/ai/genkit'; // Temporarily remove AI provider
+import { ai as AI } from '@/ai/genkit';
 
 const geistSans = GeistSans;
 const geistMono = GeistMono;
@@ -19,12 +19,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {/* <AI> Temporarily remove AI provider */}
+        <AI>
           {children}
           <Toaster />
-        {/* </AI> Temporarily remove AI provider */}
+        </AI>
       </body>
     </html>
   );

@@ -4,51 +4,51 @@
 
 @layer base {
   :root {
-    --background: 120 20% 17%; /* #223322 Dark Desaturated Green */
-    --foreground: 120 10% 85%; /* Light, slightly greenish gray for text */
+    --background: 0 0% 100%; /* white */
+    --foreground: 240 10% 3.9%; /* near black for text */
 
-    --card: 120 20% 20%; /* Slightly lighter than background for cards */
-    --card-foreground: 120 10% 85%;
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 240 10% 3.9%;
 
-    --popover: 120 20% 15%; /* Darker for popovers */
-    --popover-foreground: 120 10% 85%;
+    --popover: 0 0% 100%; /* white */
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 88 38% 37%; /* #556B2F Muted Forest Green */
-    --primary-foreground: 88 25% 95%; /* Light color for text on primary */
+    --primary: 88 45% 45%; /* A pleasant, accessible green */
+    --primary-foreground: 88 25% 98%; /* very light text for on primary */
 
-    --secondary: 120 15% 25%; /* A muted secondary color */
-    --secondary-foreground: 120 10% 80%;
+    --secondary: 240 4.8% 95.9%; /* light gray */
+    --secondary-foreground: 240 5.9% 10%; /* dark text for on secondary */
 
-    --muted: 120 15% 22%; /* Muted backgrounds/text */
-    --muted-foreground: 120 10% 65%;
+    --muted: 240 4.8% 95.9%; /* light gray for muted backgrounds */
+    --muted-foreground: 240 3.8% 46.1%; /* mid-gray text for on muted */
 
-    --accent: 25 70% 31%; /* #8B4513 Earthy Brown */
-    --accent-foreground: 25 25% 95%; /* Light color for text on accent */
+    --accent: 25 80% 53%; /* A warm, earthy brown, slightly brighter */
+    --accent-foreground: 25 50% 98%; /* very light text for on accent */
 
-    --destructive: 0 70% 45%; /* Adjusted destructive for better visibility on dark theme */
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 72.2% 50.6%; /* A clear, accessible red */
+    --destructive-foreground: 0 0% 98%; /* light text for on destructive */
 
-    --border: 120 15% 28%;
-    --input: 120 15% 28%;
-    --ring: 25 70% 45%; /* Lighter shade of accent for rings */
+    --border: 240 5.9% 90%; /* light gray border */
+    --input: 240 5.9% 90%; /* light gray input background */
+    --ring: 88 45% 55%; /* ring color based on primary */
 
     --radius: 0.5rem;
 
-    /* Sidebar specific colors for consistency with the dark theme */
-    --sidebar-background: 120 20% 14%; /* Slightly darker than main background for sidebar */
-    --sidebar-foreground: 120 10% 80%;
-    --sidebar-primary: 88 38% 45%; /* Slightly lighter primary for sidebar active items */
-    --sidebar-primary-foreground: 88 25% 95%;
-    --sidebar-accent: 120 15% 28%; /* Accent for hover/focus in sidebar, same as input/border */
-    --sidebar-accent-foreground: 120 10% 90%;
-    --sidebar-border: 120 15% 25%;
-    --sidebar-ring: 25 70% 50%;
+    /* Sidebar specific colors for light theme */
+    --sidebar-background: 240 5% 97%; /* Very light gray, slightly different from main bg */
+    --sidebar-foreground: 240 10% 3.9%;
+    --sidebar-primary: 88 45% 45%; /* same as primary */
+    --sidebar-primary-foreground: 88 25% 98%;
+    --sidebar-accent: 240 4.8% 92%; /* Lighter gray for hover/focus in sidebar */
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 240 5.9% 88%;
+    --sidebar-ring: 88 45% 55%;
 
-    --chart-1: 88 38% 50%;
-    --chart-2: 25 70% 45%;
-    --chart-3: 120 20% 60%;
-    --chart-4: 88 38% 65%;
-    --chart-5: 25 70% 60%;
+    --chart-1: 88 40% 55%;
+    --chart-2: 25 75% 55%;
+    --chart-3: 200 60% 60%; 
+    --chart-4: 88 40% 70%;
+    --chart-5: 25 75% 70%;
   }
 }
 
