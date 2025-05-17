@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   // const AIProvider = ai; // Alias for JSX - Temporarily commented out
   return (
-    <html lang="en" className="dark"> {/* Ensure dark class is applied for the PRD theme */}
+    <html lang="en" className="dark">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* <AIProvider> */}
           {children}
