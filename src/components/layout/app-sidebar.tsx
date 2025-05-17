@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -51,6 +52,7 @@ export function AppSidebar() {
   const [openModules, setOpenModules] = React.useState(true); // Keep emergency modules open by default
 
   const isActive = (href: string, isParent = false) => {
+    if (!pathname) return false; // Handle null pathname
     if (isParent) return pathname.startsWith(href);
     return pathname === href;
   };
