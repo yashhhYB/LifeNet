@@ -30,8 +30,8 @@ Whether you're off-grid or in an emergency, this app ensures that you're never a
 - **Frontend**: Firebase Hosting + Responsive HTML/CSS/JavaScript *(or your preferred framework such as React or Vue)*
 - **AI Logic**: Rule-based system or API integration (OpenAI-compatible)
 - **Offline Capability**: Enabled through Firebase PWA (Progressive Web App)
-- **Backend (Optional)**: Firebase Cloud Functions
-- **Database (Optional)**: Firestore for user logs or content storage
+- **Backend**: Firebase Cloud Functions
+- **Database**: Firestore for user logs or content storage
 
 ---
 
