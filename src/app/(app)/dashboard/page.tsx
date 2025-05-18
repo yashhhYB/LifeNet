@@ -20,7 +20,7 @@ export default function DashboardPage() {
       description: "Step-by-step emergency medical procedures.",
       icon: <HeartPulse className="h-8 w-8 text-primary" />,
       href: "/emergency/first-aid",
-      image: "https://placehold.co/300x200.png",
+      image: "https://firstaidsuppliesonline.com/wp-content/uploads/2021/09/first-aid-kit-1-1024x587.jpeg",
       imageHint: "first aid",
     },
     {
@@ -28,7 +28,7 @@ export default function DashboardPage() {
       description: "Learn essential techniques to create fire.",
       icon: <Flame className="h-8 w-8 text-primary" />,
       href: "/emergency/fire-starter",
-      image: "https://placehold.co/300x200.png",
+      image: "https://d36tnp772eyphs.cloudfront.net/blogs/1/2020/07/best-ways-start-fire-4.jpg",
       imageHint: "campfire",
     },
     {
@@ -36,7 +36,7 @@ export default function DashboardPage() {
       description: "Methods to make water safe for drinking.",
       icon: <Droplets className="h-8 w-8 text-primary" />,
       href: "/emergency/water-purification",
-      image: "https://placehold.co/300x200.png",
+      image: "https://reliancehomecomfort.com/wp-content/uploads/2023/10/WaterPurification-Guide.jpg",
       imageHint: "water filter",
     },
     {
@@ -44,7 +44,7 @@ export default function DashboardPage() {
       description: "Navigate without GPS using natural signs.",
       icon: <Compass className="h-8 w-8 text-primary" />,
       href: "/emergency/navigation-tips",
-      image: "https://placehold.co/300x200.png",
+      image: "https://th.bing.com/th/id/R.5226fe31be868c1e1741a9173bb953cc?rik=wtp6dqN9fIV5qQ&riu=http%3a%2f%2ftrafficinfratech.com%2fwp-content%2fuploads%2f2023%2f06%2fNew-Project-2023-06-22T120730.152.jpg&ehk=1RPdQDao5cxuaVryDKuq9QRc69KbX8NwGfjkn1bjaY0%3d&risl=&pid=ImgRaw&r=0",
       imageHint: "compass map",
     },
     {
@@ -52,7 +52,7 @@ export default function DashboardPage() {
       description: "Visual and audible signal for emergencies.",
       icon: <RadioTower className="h-8 w-8 text-primary" />,
       href: "/sos",
-      image: "https://placehold.co/300x200.png",
+      image: "https://data1.ibtimes.co.in/en/full/674930/sos.jpg",
       imageHint: "SOS beacon",
     },
   ];
@@ -62,7 +62,7 @@ export default function DashboardPage() {
       <Card className="w-full max-w-4xl shadow-xl overflow-hidden">
         <div className="relative h-48 md:h-64">
           <Image
-            src="https://placehold.co/1200x400.png"
+            src="https://anthonyawaken.com/wp-content/uploads/2021/04/5c-survival-kit-2021-960x636.jpg"
             alt="Survival scenario"
             layout="fill"
             objectFit="cover"
