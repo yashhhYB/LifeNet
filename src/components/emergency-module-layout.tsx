@@ -69,7 +69,7 @@ export function EmergencyModuleLayout({ content, icon }: EmergencyModuleLayoutPr
           </div>
         </CardHeader>
         <CardContent>
-          <p className="text-sm text-accent-foreground/90">
+          <p className="text-sm text-muted-foreground leading-relaxed"> {/* Changed text-accent-foreground/90 to text-muted-foreground and adjusted opacity */}
             The information provided in LifeNet Survivalist is for guidance only and not a substitute for professional training or real-time expert advice. Survival situations are inherently dangerous. Always prioritize your safety and make decisions based on your specific environment and capabilities. Use this information at your own risk.
           </p>
         </CardContent>

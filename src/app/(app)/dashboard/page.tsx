@@ -52,7 +52,7 @@ export default function DashboardPage() {
       description: "Visual and audible signal for emergencies.",
       icon: <RadioTower className="h-8 w-8 text-primary" />,
       href: "/sos",
-      image: "https://data1.ibtimes.co.in/en/full/674930/sos.jpg",
+      image: "https://cdn.pixabay.com/photo/2014/01/03/07/38/sos-237958_1280.jpg",
       imageHint: "SOS beacon",
     },
   ];
@@ -62,7 +62,7 @@ export default function DashboardPage() {
       <Card className="w-full max-w-4xl shadow-xl overflow-hidden">
         <div className="relative h-48 md:h-64">
           <Image
-            src="https://anthonyawaken.com/wp-content/uploads/2021/04/5c-survival-kit-2021-960x636.jpg"
+            src="https://img.freepik.com/premium-photo/outdoor-camping-gear-organized-rugged-outdoor-scene_1007506-35586.jpg"
             alt="Survival scenario"
             layout="fill"
             objectFit="cover"
