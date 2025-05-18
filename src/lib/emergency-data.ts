@@ -1,3 +1,4 @@
+
 export interface EmergencyModuleSection {
   title: string;
   content: string[];
@@ -17,7 +18,7 @@ export const firstAidContent: EmergencyModuleContent = {
   pageTitle: "First Aid Essentials",
   overallIntroduction: "Critical first aid knowledge can save lives. This module provides step-by-step guidance for common emergency situations.",
   mainImage: "https://placehold.co/600x300.png",
-  mainImageHint: "first aid kit",
+  mainImageHint: "medical kit",
   sections: [
     {
       title: "Treating Severe Bleeding",
@@ -58,7 +59,7 @@ export const firstAidContent: EmergencyModuleContent = {
         "3. Continue compressions until medical help arrives or the person starts to breathe."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "cpr demonstration"
+      imageHint: "CPR training"
     }
   ]
 };
@@ -67,7 +68,7 @@ export const fireStarterContent: EmergencyModuleContent = {
   pageTitle: "Fire Starting Techniques",
   overallIntroduction: "Fire is crucial for warmth, cooking, purifying water, and signaling. Learn various methods to start a fire in survival situations.",
   mainImage: "https://placehold.co/600x300.png",
-  mainImageHint: "campfire outdoors",
+  mainImageHint: "campfire",
   sections: [
     {
       title: "Using a Ferro Rod (Fire Steel)",
@@ -78,7 +79,7 @@ export const fireStarterContent: EmergencyModuleContent = {
         "4. Gently blow on the ember to encourage it into a flame. Add kindling gradually, then fuelwood."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "ferro rod sparks"
+      imageHint: "fire steel"
     },
     {
       title: "Using Magnifying Glass",
@@ -89,7 +90,7 @@ export const fireStarterContent: EmergencyModuleContent = {
         "3. Hold steady until the tinder begins to smolder. Gently blow to create a flame."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "magnifying glass sun"
+      imageHint: "magnifying glass"
     }
   ]
 };
@@ -98,7 +99,7 @@ export const waterPurificationContent: EmergencyModuleContent = {
   pageTitle: "Water Purification Methods",
   overallIntroduction: "Access to clean drinking water is vital for survival. Untreated water can cause severe illness. Here are common purification methods.",
   mainImage: "https://placehold.co/600x300.png",
-  mainImageHint: "clear stream water",
+  mainImageHint: "clear water",
   sections: [
     {
       title: "Boiling",
@@ -109,7 +110,7 @@ export const waterPurificationContent: EmergencyModuleContent = {
         "3. Let the water cool before drinking. Boiled water might taste flat; aerate it by pouring it between containers."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "boiling water pot"
+      imageHint: "boiling water"
     },
     {
       title: "Using Purification Tablets",
@@ -131,7 +132,7 @@ export const waterPurificationContent: EmergencyModuleContent = {
         "3. This is primarily for clarifying water; boil afterwards for safety."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "diy water filter"
+      imageHint: "water filter"
     }
   ]
 };
@@ -140,7 +141,7 @@ export const navigationTipsContent: EmergencyModuleContent = {
   pageTitle: "Navigation Without GPS",
   overallIntroduction: "Knowing how to find your way without modern technology is a critical survival skill. These tips can help you navigate using natural signs.",
   mainImage: "https://placehold.co/600x300.png",
-  mainImageHint: "compass map forest",
+  mainImageHint: "compass map",
   sections: [
     {
       title: "Using the Sun",
@@ -152,7 +153,7 @@ export const navigationTipsContent: EmergencyModuleContent = {
         "3. A line drawn from the first mark to the second mark points roughly east. Your left foot on the first mark and right foot on the second mark will have you facing approximately north (in the Northern Hemisphere)."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "sun shadow stick"
+      imageHint: "sun shadow"
     },
     {
       title: "Using Stars (Northern Hemisphere)",
@@ -162,7 +163,7 @@ export const navigationTipsContent: EmergencyModuleContent = {
         "2. Polaris is the last star in the handle of the Little Dipper (Ursa Minor) and stays almost directly above the North Pole."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "night sky stars"
+      imageHint: "starry sky"
     },
     {
       title: "Natural Signs",
@@ -173,7 +174,7 @@ export const navigationTipsContent: EmergencyModuleContent = {
         "These signs are general indicators and should be used with caution and cross-referenced if possible."
       ],
       image: "https://placehold.co/400x250.png",
-      imageHint: "moss tree forest"
+      imageHint: "tree moss"
     }
   ]
 };
