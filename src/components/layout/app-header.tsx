@@ -9,7 +9,7 @@ export function AppHeader() {
       <div className="flex items-center gap-2">
         <LifeBuoy className="h-7 w-7 text-primary" />
         <h1 className="text-xl font-semibold text-foreground">
-          LifeNet Survivalist
+          LifeNet
         </h1>
       </div>
       {/* Add User/Settings Dropdown here if needed in future */}

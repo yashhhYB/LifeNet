@@ -43,49 +43,50 @@
   }
 
   .dark {
-    --background: 120 20% 10%; /* Dark Desaturated Green, made darker */
-    --foreground: 88 30% 85%; /* Light Green for Text - adjusted for contrast */
+    --background: 0 0% 3%; /* Dark Black */
+    --foreground: 0 0% 98%; /* White Text */
 
-    --card: 120 20% 15%; /* Darker card background */
-    --card-foreground: 88 30% 85%;
+    --card: 0 0% 8%; /* Slightly off-black for cards */
+    --card-foreground: 0 0% 98%;
 
-    --popover: 120 20% 15%; /* Darker popover background */
-    --popover-foreground: 88 30% 85%;
+    --popover: 0 0% 8%; /* Slightly off-black for popovers */
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 88 39% 37%; /* Muted Forest Green (#556B2F) */
-    --primary-foreground: 88 25% 95%; 
+    --primary: 140 60% 55%; /* Visible Green for actions */
+    --primary-foreground: 0 0% 5%; /* Dark text on primary green */
 
-    --secondary: 120 15% 25%; /* Darker green for secondary elements */
-    --secondary-foreground: 88 25% 80%;
+    --secondary: 0 0% 10%; /* Subtle dark secondary background */
+    --secondary-foreground: 0 0% 80%; /* Lighter text on secondary */
 
-    --muted: 120 15% 22%;
-    --muted-foreground: 88 20% 60%;
+    --muted: 0 0% 12%; /* Muted dark background */
+    --muted-foreground: 0 0% 65%; /* Muted text */
 
-    --accent: 25 73% 30%; /* Earthy Brown (#8B4513) */
-    --accent-foreground: 25 30% 95%; 
+    --accent: 140 70% 65%; /* Light Green for accent (can be same as border) */
+    --accent-foreground: 0 0% 5%; /* Dark text on light green accent */
 
-    --destructive: 0 60% 50%; 
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%; /* Standard destructive red */
+    --destructive-foreground: 0 0% 98%; /* White text on destructive */
 
-    --border: 120 10% 30%;
-    --input: 120 10% 30%;
-    --ring: 88 39% 47%; /* Ring color based on primary */
+    --border: 140 70% 65%; /* Light Green Border */
+    --input: 140 70% 65%; /* Light Green Input Border */
+    --ring: 140 70% 70%; /* Brighter Green for focus ring */
 
     /* Sidebar specific colors for dark theme */
-    --sidebar-background: 120 20% 12%; /* Even darker for sidebar */
-    --sidebar-foreground: 88 25% 75%;
-    --sidebar-primary: 88 39% 37%;
-    --sidebar-primary-foreground: 88 25% 95%;
-    --sidebar-accent: 120 20% 18%; /* Hover/focus in sidebar, subtly lighter than sidebar bg */
-    --sidebar-accent-foreground: 88 25% 85%;
-    --sidebar-border: 120 10% 25%;
-    --sidebar-ring: 88 39% 47%;
+    --sidebar-background: 0 0% 5%; /* Darker sidebar background */
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 140 60% 55%;
+    --sidebar-primary-foreground: 0 0% 5%;
+    --sidebar-accent: 0 0% 10%; /* Hover/focus in sidebar */
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 140 70% 65%; /* Light Green Sidebar Border */
+    --sidebar-ring: 140 70% 70%;
 
-    --chart-1: 88 40% 50%;
-    --chart-2: 25 55% 45%;
-    --chart-3: 200 50% 55%;
-    --chart-4: 88 40% 65%;
-    --chart-5: 25 55% 60%;
+    /* Chart colors for dark theme */
+    --chart-1: 140 70% 55%;
+    --chart-2: 140 70% 65%;
+    --chart-3: 140 60% 45%;
+    --chart-4: 140 80% 75%;
+    --chart-5: 140 50% 35%;
   }
 }
 

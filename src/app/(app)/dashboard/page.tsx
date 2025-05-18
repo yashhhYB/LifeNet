@@ -12,7 +12,7 @@ export default function DashboardPage() {
       description: "Get instant survival advice. Works offline.",
       icon: <Bot className="h-8 w-8 text-primary" />,
       href: "/chatbot",
-      image: "https://placehold.co/300x200.png",
+      image: "https://images.hdqwalls.com/download/chat-bot-ss-1440x900.jpg",
       imageHint: "AI chatbot",
     },
     {
