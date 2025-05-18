@@ -116,7 +116,7 @@ export default function DashboardPage() {
           <CardTitle className="text-accent text-xl">Stay Prepared, Stay Safe</CardTitle>
         </CardHeader>
         <CardContent>
-          <p className="text-accent-foreground/90">
+          <p className="text-foreground/90">
             LifeNet provides critical information for unexpected situations. Always prioritize safety and seek professional help when available.
             Battery optimization techniques are used throughout the app to ensure longevity in critical moments.
           </p>
