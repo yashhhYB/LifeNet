@@ -43,7 +43,7 @@
   }
 
   .dark {
-    --background: 120 20% 17%; /* Dark Desaturated Green (#223322) - adjusted lightness for readability */
+    --background: 120 20% 10%; /* Dark Desaturated Green, made darker */
     --foreground: 88 30% 85%; /* Light Green for Text - adjusted for contrast */
 
     --card: 120 20% 20%; /* Slightly lighter dark green */
