@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import './globals.css';
-import { Toaster } from "@/components/ui/toaster";
-// import { ai } from '@/ai/genkit'; // Correctly import 'ai' - Temporarily commented out
+// import { Toaster } from "@/components/ui/toaster";
+// import { ai as AI } from '@/ai/genkit'; // Was commented out
 
 const geistSans = GeistSans;
 const geistMono = GeistMono;
@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* <AIProvider> */}
           {children}
-          <Toaster />
+          {/* <Toaster /> */}
         {/* </AIProvider> */}
       </body>
     </html>
