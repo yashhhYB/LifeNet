@@ -46,10 +46,10 @@
     --background: 120 20% 10%; /* Dark Desaturated Green, made darker */
     --foreground: 88 30% 85%; /* Light Green for Text - adjusted for contrast */
 
-    --card: 120 20% 20%; /* Slightly lighter dark green */
+    --card: 120 20% 15%; /* Darker card background */
     --card-foreground: 88 30% 85%;
 
-    --popover: 120 20% 20%;
+    --popover: 120 20% 15%; /* Darker popover background */
     --popover-foreground: 88 30% 85%;
 
     --primary: 88 39% 37%; /* Muted Forest Green (#556B2F) */
@@ -72,11 +72,11 @@
     --ring: 88 39% 47%; /* Ring color based on primary */
 
     /* Sidebar specific colors for dark theme */
-    --sidebar-background: 120 20% 15%; /* Even darker for sidebar */
+    --sidebar-background: 120 20% 12%; /* Even darker for sidebar */
     --sidebar-foreground: 88 25% 75%;
     --sidebar-primary: 88 39% 37%;
     --sidebar-primary-foreground: 88 25% 95%;
-    --sidebar-accent: 120 20% 22%; /* Hover/focus in sidebar */
+    --sidebar-accent: 120 20% 18%; /* Hover/focus in sidebar, subtly lighter than sidebar bg */
     --sidebar-accent-foreground: 88 25% 85%;
     --sidebar-border: 120 10% 25%;
     --sidebar-ring: 88 39% 47%;
