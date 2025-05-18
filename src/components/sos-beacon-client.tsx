@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect, useRef } from "react";
@@ -15,7 +16,7 @@ export function SOSBeaconClient() {
 
   const initializeAudio = async () => {
     if (!audioInitialized) {
-      await Tone.start(); 
+      await Tone.start();
       synthRef.current = new Tone.Synth({
         oscillator: { type: "sine" },
         envelope: { attack: 0.005, decay: 0.1, sustain: 0.3, release: 0.3 }
@@ -26,7 +27,7 @@ export function SOSBeaconClient() {
 
   useEffect(() => {
     let flashIntervalId: NodeJS.Timeout | null = null;
-    let soundLoop: Tone.Loop | null = null;
+    let soundLoop: Tone.Loop | Tone.Part<any> | null = null; // Updated type to include Tone.Part
 
     if (isBeaconActive && audioInitialized && synthRef.current) {
       let isLit = false;
@@ -57,7 +58,7 @@ export function SOSBeaconClient() {
           { time: unitTime * 23, duration: unitTime, note: "C5" },
           { time: unitTime * 25, duration: unitTime, note: "C5" },
         ];
-        
+
         const part = new Tone.Part((time, value) => {
           synthRef.current?.triggerAttackRelease(value.note, value.duration, time);
         }, sosSequence);
@@ -78,29 +79,25 @@ export function SOSBeaconClient() {
             soundLoop.stop(0);
             soundLoop.dispose();
         }
-        Tone.Transport.stop();
-        Tone.Transport.cancel(); 
+        if (Tone.Transport.state === "started") { // Only stop if it was started
+            Tone.Transport.stop();
+            Tone.Transport.cancel();
+        }
       };
     }
-    
-    return () => {
-      if (synthRef.current) {
-        // synthRef.current.dispose(); // Avoid disposing here, manage in main cleanup
-      }
-    }
 
-  }, [isBeaconActive, isMuted, audioInitialized]);
-  
-  // Cleanup synth on component unmount
-  useEffect(() => {
+    // Cleanup synth on component unmount
     return () => {
       if (synthRef.current) {
         synthRef.current.dispose();
       }
-      Tone.Transport.stop();
-      Tone.Transport.cancel();
+       if (Tone.Transport.state === "started") {
+        Tone.Transport.stop();
+        Tone.Transport.cancel();
+      }
     }
-  }, []);
+
+  }, [isBeaconActive, isMuted, audioInitialized]);
 
 
   const toggleBeacon = async () => {
@@ -113,9 +110,9 @@ export function SOSBeaconClient() {
   const toggleMute = () => {
     setIsMuted(!isMuted);
      if (isBeaconActive && audioInitialized && synthRef.current) {
-        if (!isMuted) { // If unmuting, and beacon is active, restart transport
+        if (!isMuted && Tone.Transport.state !== "started") { // If unmuting, and beacon is active, and transport is not already started
             Tone.Transport.start();
-        } else { // If muting, stop transport
+        } else if (isMuted && Tone.Transport.state === "started") { // If muting, and transport is started
             Tone.Transport.stop();
         }
     }
@@ -176,7 +173,7 @@ export function SOSBeaconClient() {
                 <CardTitle className="text-md text-accent">Important Considerations</CardTitle>
             </div>
         </CardHeader>
-        <CardContent className="text-sm text-accent-foreground/90 space-y-1">
+        <CardContent className="text-sm text-muted-foreground space-y-1">
             <p>Use the SOS beacon only in genuine emergencies.</p>
             <p>This feature consumes significant battery. Monitor your device's power.</p>
             <p>The effectiveness of the beacon depends on environmental conditions and proximity of potential rescuers.</p>
@@ -185,3 +182,4 @@ export function SOSBeaconClient() {
     </div>
   );
 }
+

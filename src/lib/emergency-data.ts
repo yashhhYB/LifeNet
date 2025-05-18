@@ -17,7 +17,7 @@ export interface EmergencyModuleContent {
 export const firstAidContent: EmergencyModuleContent = {
   pageTitle: "First Aid Essentials",
   overallIntroduction: "Critical first aid knowledge can save lives. This module provides step-by-step guidance for common emergency situations.",
-  mainImage: "https://placehold.co/600x300.png",
+  mainImage: "https://media.istockphoto.com/id/1207070882/photo/first-aid-articles.jpg?s=1024x1024&w=is&k=20&c=mfEMFz0VTzqwhJjVIPWLHe6bLROK_SeGvzj44Ab0pzw=",
   mainImageHint: "medical kit",
   sections: [
     {
@@ -30,7 +30,7 @@ export const firstAidContent: EmergencyModuleContent = {
         "5. If an object is embedded in the wound, do not remove it. Apply pressure around the object.",
         "6. Use a tourniquet only as a last resort if bleeding is life-threatening and cannot be controlled by direct pressure. Ensure you know how to apply it correctly."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2013/04/22/01/13/wound-106374_1280.jpg",
       imageHint: "dressing wound"
     },
     {
@@ -46,7 +46,7 @@ export const firstAidContent: EmergencyModuleContent = {
         "3. Cover the burn area with a clean, dry sheet or dressing.",
         "4. Do not immerse large severe burns in cold water, as this can cause hypothermia."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://media.istockphoto.com/id/636391614/photo/treating-burn-injury-putting-bandage.jpg?s=1024x1024&w=is&k=20&c=U53BCUdGwe3hB7N4GCq0e5qjv19FviJl37RFT-5_0ug=",
       imageHint: "burn care"
     },
     {
@@ -58,7 +58,7 @@ export const firstAidContent: EmergencyModuleContent = {
         "2. Push hard and fast in the center of the chest: Place one hand on top of the other in the center of the chest. Use your body weight to help you administer compressions at least 2 inches deep and at a rate of 100 to 120 compressions per minute.",
         "3. Continue compressions until medical help arrives or the person starts to breathe."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2020/12/06/06/00/cpr-5807848_1280.jpg",
       imageHint: "CPR training"
     }
   ]
@@ -67,7 +67,7 @@ export const firstAidContent: EmergencyModuleContent = {
 export const fireStarterContent: EmergencyModuleContent = {
   pageTitle: "Fire Starting Techniques",
   overallIntroduction: "Fire is crucial for warmth, cooking, purifying water, and signaling. Learn various methods to start a fire in survival situations.",
-  mainImage: "https://placehold.co/600x300.png",
+  mainImage: "https://cdn.pixabay.com/photo/2019/11/05/18/50/fire-4604223_1280.jpg",
   mainImageHint: "campfire",
   sections: [
     {
@@ -78,7 +78,7 @@ export const fireStarterContent: EmergencyModuleContent = {
         "3. Hold the ferro rod close to the tinder. Scrape the striker down the rod firmly, aiming sparks directly onto the tinder.",
         "4. Gently blow on the ember to encourage it into a flame. Add kindling gradually, then fuelwood."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2019/05/05/22/27/truck-4181861_1280.jpg",
       imageHint: "fire steel"
     },
     {
@@ -89,7 +89,7 @@ export const fireStarterContent: EmergencyModuleContent = {
         "2. Angle the magnifying glass to focus the sun's rays into a small, intense point of light on the tinder.",
         "3. Hold steady until the tinder begins to smolder. Gently blow to create a flame."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2020/03/25/11/54/eyesight-4967031_1280.jpg",
       imageHint: "magnifying glass"
     }
   ]
@@ -98,7 +98,7 @@ export const fireStarterContent: EmergencyModuleContent = {
 export const waterPurificationContent: EmergencyModuleContent = {
   pageTitle: "Water Purification Methods",
   overallIntroduction: "Access to clean drinking water is vital for survival. Untreated water can cause severe illness. Here are common purification methods.",
-  mainImage: "https://placehold.co/600x300.png",
+  mainImage: "https://cdn.pixabay.com/photo/2020/03/12/22/26/water-4926382_1280.jpg",
   mainImageHint: "clear water",
   sections: [
     {
@@ -109,7 +109,7 @@ export const waterPurificationContent: EmergencyModuleContent = {
         "2. Bring water to a rolling boil for at least 1 minute. At altitudes above 6,500 feet (2,000 meters), boil for 3 minutes.",
         "3. Let the water cool before drinking. Boiled water might taste flat; aerate it by pouring it between containers."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2021/02/04/20/04/tea-5982485_1280.jpg",
       imageHint: "boiling water"
     },
     {
@@ -120,7 +120,7 @@ export const waterPurificationContent: EmergencyModuleContent = {
         "2. Typically, you add tablets to a specific volume of water and wait for a designated time (e.g., 30 minutes) before drinking.",
         "3. Effective against most bacteria and viruses, but may not kill all parasites like Cryptosporidium."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2018/01/08/09/46/pill-3069032_1280.jpg",
       imageHint: "water tablets"
     },
     {
@@ -131,7 +131,7 @@ export const waterPurificationContent: EmergencyModuleContent = {
         "2. Slowly pour water through the layers. The filtered water will collect at the bottom.",
         "3. This is primarily for clarifying water; boil afterwards for safety."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2018/05/22/10/45/chozuya-3421067_1280.jpghttps://placehold.co/400x250.png",
       imageHint: "water filter"
     }
   ]
@@ -140,7 +140,7 @@ export const waterPurificationContent: EmergencyModuleContent = {
 export const navigationTipsContent: EmergencyModuleContent = {
   pageTitle: "Navigation Without GPS",
   overallIntroduction: "Knowing how to find your way without modern technology is a critical survival skill. These tips can help you navigate using natural signs.",
-  mainImage: "https://placehold.co/600x300.png",
+  mainImage: "https://cdn.pixabay.com/photo/2017/08/25/06/54/street-map-2679271_1280.jpg",
   mainImageHint: "compass map",
   sections: [
     {
@@ -152,7 +152,7 @@ export const navigationTipsContent: EmergencyModuleContent = {
         "2. Wait 15-30 minutes. Mark the new position of the shadow's tip.",
         "3. A line drawn from the first mark to the second mark points roughly east. Your left foot on the first mark and right foot on the second mark will have you facing approximately north (in the Northern Hemisphere)."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2015/04/13/19/34/sol-721196_1280.jpg",
       imageHint: "sun shadow"
     },
     {
@@ -162,7 +162,7 @@ export const navigationTipsContent: EmergencyModuleContent = {
         "1. Locate the Big Dipper (Ursa Major). The two stars forming the outer edge of the Big Dipper's 'cup' point towards Polaris.",
         "2. Polaris is the last star in the handle of the Little Dipper (Ursa Minor) and stays almost directly above the North Pole."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2019/11/24/06/27/sunset-4648694_1280.jpg",
       imageHint: "starry sky"
     },
     {
@@ -173,7 +173,7 @@ export const navigationTipsContent: EmergencyModuleContent = {
         "Observe water flow: streams generally flow downhill and can lead to larger bodies of water or civilization.",
         "These signs are general indicators and should be used with caution and cross-referenced if possible."
       ],
-      image: "https://placehold.co/400x250.png",
+      image: "https://cdn.pixabay.com/photo/2020/02/08/13/26/moss-4830085_1280.jpg",
       imageHint: "tree moss"
     }
   ]
