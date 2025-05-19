@@ -89,7 +89,7 @@ ai-survival-assistant/
 ## 🌐 Live Preview
 
 > Live: [https://ai-survival-assistant.web.app](https://studio--lifenet-survivalist.us-central1.hosted.app/dashboard)
-> > LiveDemo : [https://ai-survival-assistant.web.app](<iframe title="vimeo-player" src="https://player.vimeo.com/video/1085425249?h=7b6bab62ea" width="640" height="360" frameborder="0"    allowfullscreen></iframe>)
+> > LiveDemo : [https://ai-survival-assistant.web.app](https://player.vimeo.com/video/1085425249?h=7b6bab62ea)
 
 ---
 
